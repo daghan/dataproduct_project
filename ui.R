@@ -6,7 +6,7 @@ shinyUI(pageWithSidebar(
         sliderInput('iTree', 'Number of trees in the forest',value = 5, min = 1, max = 10, step = 1,)
     ),
     mainPanel(
-        h2('Efficiency of Fandom Forests'),
+        h2('Efficiency of the Fandom Forests'),
         p('In this web page, we aim to demonstrate the accuracy and the efficiency of Random Forest based classification
            using the Iris data set.'),
         p('The slider on the left panel controls the \"number of trees\" in the forest.'),
